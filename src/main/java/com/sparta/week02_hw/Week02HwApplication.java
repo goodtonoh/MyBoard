@@ -1,15 +1,11 @@
 package com.sparta.week02_hw;
 
-import com.sparta.week02_hw.models.Board;
-import com.sparta.week02_hw.models.BoardRepository;
-import com.sparta.week02_hw.models.BoardRequestDto;
+import com.sparta.week02_hw.repository.BoardRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
-
-import java.util.List;
 
 @EnableJpaAuditing
 @SpringBootApplication

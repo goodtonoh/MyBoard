@@ -1,5 +1,6 @@
-package com.sparta.week02_hw.models;
+package com.sparta.week02_hw.repository;
 
+import com.sparta.week02_hw.models.Board;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

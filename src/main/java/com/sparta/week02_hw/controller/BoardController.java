@@ -1,8 +1,8 @@
 package com.sparta.week02_hw.controller;
 
 import com.sparta.week02_hw.models.Board;
-import com.sparta.week02_hw.models.BoardRepository;
-import com.sparta.week02_hw.models.BoardRequestDto;
+import com.sparta.week02_hw.repository.BoardRepository;
+import com.sparta.week02_hw.dto.BoardRequestDto;
 import com.sparta.week02_hw.service.BoardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

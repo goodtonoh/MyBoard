@@ -1,4 +1,4 @@
-package com.sparta.week02_hw.models;
+package com.sparta.week02_hw.dto;
 
 import lombok.Getter;
 

@@ -1,8 +1,8 @@
 package com.sparta.week02_hw.models;
 
+import com.sparta.week02_hw.dto.BoardRequestDto;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import javax.persistence.*;
 
